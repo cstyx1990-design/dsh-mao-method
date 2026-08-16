@@ -1,0 +1,12 @@
+# Node
+node_modules/
+*.tsbuildinfo
+*.tgz
+
+# 语料全文：版权原因不纳入版本控制（见 README「版权声明」）
+# 安装后运行 scripts/fetch-corpus.sh 拉取全文（或直接用内置 160 篇索引 + 短引文检索）
+data/corpus/
+
+# 本地数据与日志
+*.log
+.DS_Store
