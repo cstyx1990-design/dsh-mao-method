@@ -1,0 +1,10 @@
+# dsh-mao-method bundle patch: inserts the host half into the host Loader.
+# The browser half is discovered through the `dsh.client` declaration in
+# package.json (web platform roster).
+#
+# Install with:
+#   dsh plugin --profile <name> add github:cstyx1990-design/dsh-mao-method
+# (或从 DSH 插件市场界面安装)
+- insert:
+    - id: dsh-mao-method
+      name: '@dsh-external/dsh-mao-method'
